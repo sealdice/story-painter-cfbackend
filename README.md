@@ -200,6 +200,31 @@ type选TXT，Name就是那个_vercel，Content是那个第三段内容，之后�
 
 ## 修改源码
 
+首先打开你自己的GitHub，可以看到一个项目（和你Vercel当时命名有关系，忘了请去Vercel看）：
+
+![image](https://github.com/PaienNate/cf_sealdice_logbackend/assets/68044286/920e6c37-6c95-48b5-9c03-d4e1a71adbc7)
+
+点击这个项目进去，依次点击src/store.ts，之后点击那个笔的按钮进行修改:
+
+![image](https://github.com/PaienNate/cf_sealdice_logbackend/assets/68044286/4ebf1ab4-38d5-47a8-9c48-22aadb82f9fd)
+
+
+将：![image](https://github.com/PaienNate/cf_sealdice_logbackend/assets/68044286/781dd41f-dd4c-489a-9e1b-66119e6df1cc)
+
+修改为：
+
+![image](https://github.com/PaienNate/cf_sealdice_logbackend/assets/68044286/b0371682-a4d9-43b3-8965-6bb40467c801)
+
+(也就是上一大步最后你自己起的地址）
+
+然后点击：![image](https://github.com/PaienNate/cf_sealdice_logbackend/assets/68044286/0cf78254-4391-4ef2-ad0f-f7563732fffa)两次，保存修改。
+
+之后在Vercel里点击Project可以看到正在重新Build,建立成功之后就可以使用了！
+
+![image](https://github.com/PaienNate/cf_sealdice_logbackend/assets/68044286/efb69a6e-949b-4b4c-b7b2-69b03374af41)
+
+（如果不知道怎么看，那简单……等10分钟然后再进行下一步……）
+
 到 https://github.com/sealdice/sealdice-core 来clone一份海豹。之后修改 dice/utils_log_upload.go ，将里面的
 
 ```go
